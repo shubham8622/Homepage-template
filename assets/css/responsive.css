@@ -1,0 +1,106 @@
+@media only screen and (max-width:1350px){
+    .trusted-professionals-content {
+        flex: content;
+    }
+    .awards{
+        position: static;
+        width: 100%;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    section.testimonial-section{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .container-testimonial-section{
+        margin-left: 0;
+        margin-inline:auto;
+    }
+}
+@media only screen and (max-width:768px){
+    .container-testimonial-section{
+        padding-inline: 1rem;
+    }
+    .naviogatio-call-btn{
+        display: none;
+    }
+    #bars{
+        display: block!important;
+    }
+    div#bars i {
+        font-size: 2rem;
+    }
+    .hero-heading h1 {
+        font-size: 11.2rem;
+    }
+    .hero-heading .main-parent .head p {
+        font-size: 5.2rem;
+    }
+    .hero-heading h2 {
+        font-size: 6.2rem;
+    }
+    .book-now-btn button {
+        padding: 2.3rem 5.1rem;
+    }
+    nav{
+        padding: 2.3rem 0;
+    }
+    .team-image {
+        width: 45rem;
+        height: 47rem;
+    }
+    .trusted-professionals-section{
+        padding: 8rem 4rem;
+    }
+}
+@media only screen and (max-width:500px){
+    .phone-email {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .phone-email p:first-child{
+        border-right: none;
+    }
+    .book-now-btn {
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .owl-dots {
+        position: static;
+        top: 0;
+        left: 0;
+    }
+    .trusted-professionals-content h1 {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .team-image {
+        width: 35rem;
+        height: 37rem;
+    }
+    .trusted-professionals-section {
+        padding: 8rem 1rem;
+    }
+}
+@media only screen and (max-width:  375px){
+    .social-icons{
+        gap: 0.5rem;
+    }   
+    .hero-heading h1 {
+        font-size: 9.2rem;
+    }
+    .hero-heading .main-parent .head p {
+        font-size: 4.2rem;
+    }
+    .hero-heading p.future {
+        font-size: 2.6rem;
+    }
+    .hero-heading h2 {
+        font-size: 5.2rem;
+    }
+    .team-image {
+        width: 25rem;
+        height: 27rem;
+    }
+}
